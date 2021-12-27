@@ -7,7 +7,7 @@ Scheduler.py:
 - Runs the code every 15 minutes in order to have the most updated files
 
 
-Api.py
+Api.py:
 - Uses FASTAPI
 - Compares the local json file with the one in the s3 bucket based on datetime and downloads it if it is more recent
 - Uses GET method to read data
