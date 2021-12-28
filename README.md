@@ -8,7 +8,7 @@ Scheduler.py:
 
 
 Api.py:
-- Uses FASTAPI
+- Uses FastAPI
 - Compares the local json file with the one in the s3 bucket based on datetime and downloads it if it is more recent
 - Uses GET method to read data
 - The @app.get("/...") tells FastAPI that the function right below is in charge of handling requests that go to:
